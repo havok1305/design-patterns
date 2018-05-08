@@ -5,7 +5,7 @@ class Escola
     protected static $_instance = null;
     protected $alunos = array();
 
-    public static function instance() {
+    public static function getInstance() {
 
         if ( !isset( self::$_instance ) ) {
 

@@ -4,11 +4,11 @@ class TesteDois
 {
     public function __construct()
     {
-        $escola = Escola::instance();
+        $escola = Escola::getInstance();
 
         //remove primeiro aluno
         $escola->removeAluno(0);
-        echo "</br>";
+        echo "</br>Removeu primeiro aluno";
         echo "</br>";
         echo "<pre>";
         print_r($escola->getAlunos());

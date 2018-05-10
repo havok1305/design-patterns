@@ -2,6 +2,6 @@
 
 interface GUIFactory
 {
-    public function createButton();
-    public function createScrollBar();
+    public function createButton(): Button;
+    public function createScrollBar(): ScrollBar;
 }

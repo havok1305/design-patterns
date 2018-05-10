@@ -3,12 +3,12 @@
 class WinFactory implements GUIFactory
 {
 
-    public function createButton()
+    public function createButton(): Button
     {
         return new WinButton();
     }
 
-    public function createScrollBar()
+    public function createScrollBar(): ScrollBar
     {
         return new WinScrollBar();
     }

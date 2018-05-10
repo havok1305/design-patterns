@@ -3,12 +3,12 @@
 class OSXFactory implements GUIFactory
 {
 
-    public function createButton()
+    public function createButton(): Button
     {
         return new OSXButton();
     }
 
-    public function createScrollBar()
+    public function createScrollBar(): ScrollBar
     {
         return new OSXScrollBar();
     }

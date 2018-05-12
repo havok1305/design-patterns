@@ -29,7 +29,6 @@ class EscolaIterator implements Iterator
 
     public function isDone()
     {
-        echo $this->position;
         return $this->position >= count($this->array);
     }
 

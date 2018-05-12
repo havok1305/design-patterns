@@ -1,14 +1,15 @@
 <?php
+namespace DesignPatterns\AbstractFactory;
 
 class OSXFactory implements GUIFactory
 {
 
-    public function createButton(): Button
+    public function createButton()
     {
         return new OSXButton();
     }
 
-    public function createScrollBar(): ScrollBar
+    public function createScrollBar()
     {
         return new OSXScrollBar();
     }

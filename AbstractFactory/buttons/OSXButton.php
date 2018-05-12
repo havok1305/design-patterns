@@ -1,4 +1,5 @@
 <?php
+namespace DesignPatterns\AbstractFactory;
 
 class OSXButton implements Button
 {

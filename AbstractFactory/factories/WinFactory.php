@@ -1,14 +1,15 @@
 <?php
+namespace DesignPatterns\AbstractFactory;
 
 class WinFactory implements GUIFactory
 {
 
-    public function createButton(): Button
+    public function createButton()
     {
         return new WinButton();
     }
 
-    public function createScrollBar(): ScrollBar
+    public function createScrollBar()
     {
         return new WinScrollBar();
     }

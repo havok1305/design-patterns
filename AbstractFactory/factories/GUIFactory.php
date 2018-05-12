@@ -1,7 +1,8 @@
 <?php
+namespace DesignPatterns\AbstractFactory;
 
 interface GUIFactory
 {
-    public function createButton(): Button;
-    public function createScrollBar(): ScrollBar;
+    public function createButton();
+    public function createScrollBar();
 }

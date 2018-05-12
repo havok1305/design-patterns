@@ -6,6 +6,6 @@ class LoggerArquivo implements ILogger
 {
     public function log($log)
     {
-        echo "<br>Escrevendo log no arquivo.";
+        echo "<br>Escrevendo log no arquivo: {$log}";
     }
 }
